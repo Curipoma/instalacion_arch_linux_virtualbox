@@ -1,16 +1,60 @@
-# INSTALACION DE ARCH LINUX EN VIRTUALBOX
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Js</title>
+</head>
+<body class="container" id="container">
+
+    <div class="nav">
+        <nav>
+            <ul>
+                <li><button class="btn_modo" id="btn_modo">Modo</button></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="container_campo">
+        <div class="campo" id="campo">
+            
+        </div>
+    </div>
+
+    <div class="container_crud_valores">
+        <div class="cantainer_mensaje" id="cantainer_mensaje"></div>
+        <div class="crud_valores">
+            <div class="add_valor">
+                <label for="add" class="label_add">Añadir valor</label>
+                <input id="add" name="add" type="number" class="input_add">
+                <button id="btn_correr_add" class="btn_correr">Probar suerte añadiendo</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> -->
+
+
+
+
+# INSTALACIÓN DE ARCH LINUX EN VIRTUALBOX
 Instalación de Arch Linux como una máquina virtual en virtualbox.
 <img src="https://raw.githubusercontent.com/Curipoma/instalacion_arch_linux_VirtualBox/main/virtualbox.png" alt="virtualbox">
 <hr>
 
-descargamos la imagen iso de -> https://archlinux.org/download/
+<code>Descargamos la imagen iso de -> https://archlinux.org/download/</code>
 
-<h2>Caracteristicas de la máquina del ejemplo</h2><br>
+<h2>Características de la máquina del ejemplo</h2><br>
+
 <code>
-	50GB Almacenamiento<br>
-	4GB Ram<br>
-	128MB memoria grafica<br>
-	1 procesador<br>
+	<div>50GB Almacenamiento</div><br>
+	<div>4GB Ram</div><br>
+	<div>128MB memoria gráfico</div><br>
 </code>
 
 <code></code>
