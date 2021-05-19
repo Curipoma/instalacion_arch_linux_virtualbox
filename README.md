@@ -19,24 +19,43 @@ Instalación de Arch Linux como una máquina virtual en virtualbox.
 	</ul>
 
 <h3>En Oracle VM VirtualBox</h3>
-	<img src="https://raw.githubusercontent.com/Curipoma/instalacion_arch_linux_virtualbox/main/img/1.png" alt="instalación de virtualbox">
+	<p>Creamos una nueva máquina virtual</p>
+		<img src="https://raw.githubusercontent.com/Curipoma/instalacion_arch_linux_virtualbox/main/img/1.png" alt="instalación de virtualbox">
+	<p>Le damos un nombre a la máquina virtual</p>
 	<img src="https://raw.githubusercontent.com/Curipoma/instalacion_arch_linux_virtualbox/main/img/2.png" alt="instalación de virtualbox">
+	<p>Le damos una cantidad superior a 248M de ram</p>
 	<img src="https://raw.githubusercontent.com/Curipoma/instalacion_arch_linux_virtualbox/main/img/3.png" alt="instalación de virtualbox">
+	<p>Seleccionamos crear un disco virtual ahora</p>
 	<img src="https://raw.githubusercontent.com/Curipoma/instalacion_arch_linux_virtualbox/main/img/4.png" alt="instalación de virtualbox">
+	<p>Seleccionamos VDI VirtualBox Disk Image</p>
 	<img src="https://raw.githubusercontent.com/Curipoma/instalacion_arch_linux_virtualbox/main/img/5.png" alt="instalación de virtualbox">
+	<p>Seleccionamos reservado dimámicamente</p>
 	<img src="https://raw.githubusercontent.com/Curipoma/instalacion_arch_linux_virtualbox/main/img/6.png" alt="instalación de virtualbox">
+	<p>Seleccionamos la ubicación para alojar la máquina virtual y el tamaño en disco. Yo le dejare por defecto la ubicación y el tamaño en disco sera de 50GB. Le damos en crear.
 	<img src="https://raw.githubusercontent.com/Curipoma/instalacion_arch_linux_virtualbox/main/img/7.png" alt="instalación de virtualbox">
+	<p>Abrimos al configuración de la máquina virtual</p>
 	<img src="https://raw.githubusercontent.com/Curipoma/instalacion_arch_linux_virtualbox/main/img/8.png" alt="instalación de virtualbox">
+	<p>En la pestaña de sistema sección placa base debemos tener ese orden de arranque</p>
 	<img src="https://raw.githubusercontent.com/Curipoma/instalacion_arch_linux_virtualbox/main/img/9.png" alt="instalación de virtualbox">
+	<p>En la pestaña de sistema sección procesador le dejamos por defecto. Yo le pondre 4 procesadores</p>
 	<img src="https://raw.githubusercontent.com/Curipoma/instalacion_arch_linux_virtualbox/main/img/10.png" alt="instalación de virtualbox">
+	<p>En la pestaña de pantalla sección pantalla en memoria de video le dare lo máximo que pueda</p>
 	<img src="https://raw.githubusercontent.com/Curipoma/instalacion_arch_linux_virtualbox/main/img/11.png" alt="instalación de virtualbox">
+	<p>En la pestaña de almacenamiento damos click en controlador: IDE en vacío</p>
 	<img src="https://raw.githubusercontent.com/Curipoma/instalacion_arch_linux_virtualbox/main/img/12.png" alt="instalación de virtualbox">
+	<p>Damos click en la ruedita de la derecha donde dice unidad ópctica</p>
 	<img src="https://raw.githubusercontent.com/Curipoma/instalacion_arch_linux_virtualbox/main/img/13.png" alt="instalación de virtualbox">
+	<p>Buscamos en que parte del computador esta la iso de Arch Linux. Lo seleccionamos</p>
 	<img src="https://raw.githubusercontent.com/Curipoma/instalacion_arch_linux_virtualbox/main/img/14.png" alt="instalación de virtualbox">
+	<p>Ya se debe aver cambiado el nombre de vacío al nombre de la iso de Arch Linux. Le damos en aceptar</p>
 	<img src="https://raw.githubusercontent.com/Curipoma/instalacion_arch_linux_virtualbox/main/img/15.png" alt="instalación de virtualbox">
+	<p>En la parte superior despues de seleccionar la máquina virtual le damos en iniciar</p>
 	<img src="https://raw.githubusercontent.com/Curipoma/instalacion_arch_linux_virtualbox/main/img/16.png" alt="instalación de virtualbox">
+	<p>Se nos despliega un menú que dice que seleccionesmos el disco de inicio así que seleccionamos el nombre de la iso de ARch Linux que previamente seleccionamos</p>
 	<img src="https://raw.githubusercontent.com/Curipoma/instalacion_arch_linux_virtualbox/main/img/17.png" alt="instalación de virtualbox">
+	<p>Se nos desplegará un menú seleccionamos Arch Linux install medium (x86_64, BIOS)</p>
 	<img src="https://raw.githubusercontent.com/Curipoma/instalacion_arch_linux_virtualbox/main/img/18.png" alt="instalación de virtualbox">
+	<p>Ya estamos dentro de una terminal solo resta seguir los pasos de abajo</p>
 	<img src="https://raw.githubusercontent.com/Curipoma/instalacion_arch_linux_virtualbox/main/img/20_1.png" alt="instalación de virtualbox">
 
 <h3>En la linea de comandos de la máquina virtual</h3>
