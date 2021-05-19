@@ -43,7 +43,6 @@ red<br>
 		<p>Menu para crear particiones</p>
 		<code>fdisk -l</code>
 	</li>
-	
 	<li>
 		<p>Menu para crear tabla de particiones mbr</p>
 		<code>fdisk /dev/sda</code>
