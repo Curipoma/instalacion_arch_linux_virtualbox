@@ -22,20 +22,25 @@ red<br>
 
 <h3>Configuramos las demas cosas según el gusto</h3>
 
-<h3>Ya en la máquina virtual</h3>
-<p>Lo primero sera configurar el teclado</p>
-<code>loadkeys es</code>
-<code>loadkeys la-latin1</code>
+<h3>En la máquina virtual</h3>
+<ul>
+	<li>
+		<p>Lo primero sera configurar el teclado</p>
+		<code>loadkeys es</code>
+		<code>loadkeys la-latin1</code>
 
-<p>Ver todas las distribuciones de idioma del teclado</p>
-<code>localectl list-keymaps | less</code>
+		<p>Ver todas las distribuciones de idioma del teclado</p>
+		<code>localectl list-keymaps | less</code>
 
-<p>Comprobar si la computadora tiene internet</p>
-<code>ping google</code><br>
-<p>Como es una maquina virual tiene acceso a la red mediante una NAT</p>
+		<p>Comprobar si la computadora tiene internet</p>
+		<code>ping google</code><br>
+		<p>Como es una maquina virual tiene acceso a la red mediante una NAT</p>
 
-<p>Menu para crear particiones</p>
-<code>fdisk -l</code><br>
+		<p>Menu para crear particiones</p>
+		<code>fdisk -l</code><br>
+	</li>
+</ul>
+
 
 <p>Menu para crear tabla de particiones mbr</p>
 <code>fdisk /dev/sda</code><br>
