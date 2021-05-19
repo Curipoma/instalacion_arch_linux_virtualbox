@@ -29,10 +29,62 @@ Instalación de Arch Linux como una máquina virtual en virtualbox.
 				<li>red</li>
 			</ul>	
 		</li>
+		<li>
+			<img src="https://raw.githubusercontent.com/Curipoma/instalacion_arch_linux_virtualbox/main/img/1.png" alt="instalación de virtualbox">
+		</li>
+		<li>
+			<img src="https://raw.githubusercontent.com/Curipoma/instalacion_arch_linux_virtualbox/main/img/2.png" alt="instalación de virtualbox">
+		</li>
+		<li>
+			<img src="https://raw.githubusercontent.com/Curipoma/instalacion_arch_linux_virtualbox/main/img/3.png" alt="instalación de virtualbox">
+		</li>
+		<li>
+			<img src="https://raw.githubusercontent.com/Curipoma/instalacion_arch_linux_virtualbox/main/img/4.png" alt="instalación de virtualbox">
+		</li>
+		<li>
+			<img src="https://raw.githubusercontent.com/Curipoma/instalacion_arch_linux_virtualbox/main/img/5.png" alt="instalación de virtualbox">
+		</li>
+		<li>
+			<img src="https://raw.githubusercontent.com/Curipoma/instalacion_arch_linux_virtualbox/main/img/6.png" alt="instalación de virtualbox">
+		</li>
+		<li>
+			<img src="https://raw.githubusercontent.com/Curipoma/instalacion_arch_linux_virtualbox/main/img/7.png" alt="instalación de virtualbox">
+		</li>
+		<li>
+			<img src="https://raw.githubusercontent.com/Curipoma/instalacion_arch_linux_virtualbox/main/img/8.png" alt="instalación de virtualbox">
+		</li>
+		<li>
+			<img src="https://raw.githubusercontent.com/Curipoma/instalacion_arch_linux_virtualbox/main/img/9.png" alt="instalación de virtualbox">
+		</li>
+		<li>
+			<img src="https://raw.githubusercontent.com/Curipoma/instalacion_arch_linux_virtualbox/main/img/10.png" alt="instalación de virtualbox">
+		</li>
+		<li>
+			<img src="https://raw.githubusercontent.com/Curipoma/instalacion_arch_linux_virtualbox/main/img/11.png" alt="instalación de virtualbox">
+		</li>
+		<li>
+			<img src="https://raw.githubusercontent.com/Curipoma/instalacion_arch_linux_virtualbox/main/img/12.png" alt="instalación de virtualbox">
+		</li>
+		<li>
+			<img src="https://raw.githubusercontent.com/Curipoma/instalacion_arch_linux_virtualbox/main/img/13.png" alt="instalación de virtualbox">
+		</li>
+		<li>
+			<img src="https://raw.githubusercontent.com/Curipoma/instalacion_arch_linux_virtualbox/main/img/14.png" alt="instalación de virtualbox">
+		</li>
+		<li>
+			<img src="https://raw.githubusercontent.com/Curipoma/instalacion_arch_linux_virtualbox/main/img/15.png" alt="instalación de virtualbox">
+		</li>
+		<li>
+			<img src="https://raw.githubusercontent.com/Curipoma/instalacion_arch_linux_virtualbox/main/img/16.png" alt="instalación de virtualbox">
+		</li>
+		<li>
+			<img src="https://raw.githubusercontent.com/Curipoma/instalacion_arch_linux_virtualbox/main/img/17.png" alt="instalación de virtualbox">
+		</li>
+		<li>
+			<img src="https://raw.githubusercontent.com/Curipoma/instalacion_arch_linux_virtualbox/main/img/18.png" alt="instalación de virtualbox">
+		</li>
 	</ul>
 
-
-<h3>Configuramos las demas cosas según el gusto</h3>
 
 <h3>En la máquina virtual</h3>
 
