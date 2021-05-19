@@ -199,6 +199,6 @@ quit <br>
 <p>Activa el servicio de lightdm y reinicia el ordenador, deberías poder iniciar sesión en Qtile a través de lightdm.</p>
 	<code>sudo systemctl enable lightdm</code>
 	<code>reboot</code>
-Dentro de Qtile cambiamos el idioma del teclado a españon
+<p>Dentro de Qtile cambiamos el idioma del teclado a españon</p>
 	<code>setxkbmap es</code>
 
