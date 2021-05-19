@@ -91,11 +91,11 @@ red<br>
 		quit <br>
 	</li>
 	<li>
-		<p>Formatemos las particiones para luego motarlar e instalarlas</p><br>
-		<p><code>mkfs.ext2 /dev/sda1</code> Es la partición del boot<br></p><br>
-		<p><code>mkfs.ext4 /dev/sda2</code> Es la partición de la raiz<br></p><br>
-		<p><code>mkfs.ext4 /dev/sda3</code> Es la partición del home<br></p><br>
-		<p><code>mkswap /dev/sda4</code> Es la partición de la memoria de intercambio o swap<br></p><br>
+		<p>Formatemos las particiones para luego motarlar e instalarlas</p>
+		<p><code>mkfs.ext2 /dev/sda1</code> Es la partición del boot<br></p>
+		<p><code>mkfs.ext4 /dev/sda2</code> Es la partición de la raiz<br></p>
+		<p><code>mkfs.ext4 /dev/sda3</code> Es la partición del home<br></p>
+		<p><code>mkswap /dev/sda4</code> Es la partición de la memoria de intercambio o swap<br></p>
 		<p><code>swapon</code> Encendemos el swap<br></p>
 	</li>
 	<li>
