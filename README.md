@@ -21,15 +21,6 @@ Instalación de Arch Linux como una máquina virtual en virtualbox.
 <h3>En Oracle VM VirtualBox</h3>
 	<ul>
 		<li>
-			<h4>Cambiamos el orden de arranque</h4>
-			<ul>
-				<li>óptica activo</li>
-				<li>disco duro activo</li>
-				<li>disquete</li>
-				<li>red</li>
-			</ul>	
-		</li>
-		<li>
 			<img src="https://raw.githubusercontent.com/Curipoma/instalacion_arch_linux_virtualbox/main/img/1.png" alt="instalación de virtualbox">
 		</li>
 		<li>
@@ -88,9 +79,7 @@ Instalación de Arch Linux como una máquina virtual en virtualbox.
 		</li>
 	</ul>
 
-
-<h3>En la máquina virtual</h3>
-
+<h3>En la linea de comandos de la máquina virtual</h3>
 <ul>
 	<li>
 		<p>Lo primero sera configurar el teclado</p>
