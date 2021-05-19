@@ -90,26 +90,47 @@ red<br>
 		write -> yes <br>
 		quit <br>
 	</li>
-	
 	<li>
+		<p>Formatemos las particiones para luego motarlar e instalarlas</p><br>
+		<p><code>mkfs.ext2 /dev/sda1</code> Es la partición del boot<br></p><br>
+		<p><code>mkfs.ext4 /dev/sda2</code> Es la partición de la raiz<br></p><br>
+		<p><code>mkfs.ext4 /dev/sda3</code> Es la partición del home<br></p><br>
+		<p><code>mkswap /dev/sda4</code> Es la partición de la memoria de intercambio o swap<br></p><br>
+		<p><code>swapon</code> Encendemos el swap<br></p>
 	</li>
-	
 	<li>
+		<p>Montamos las particiones</p>
+		<code>mount /dev/sda2 /mnt => La raiz se ba a montar en la carpeta mnt</code><br>
+		<p>Creamos la carpeta o directorio para el boot</p><br>
+			<code>mkdir /mnt/boot</code><br>
+		<p>Mostamos el boot en la carpeta /mnt/home</p><br>
+			<code>mount /dev/sda1 /mnt/boot</code> La particion boot es la 1<br>
+		<p>Creamos la carpeta o directorio para el home</p><br>
+			<code>mkdir /mnt/home</code><br>
+		<p>Mostamos el home en la carpeta /mnt/home</p><br>
+			<code>mount /dev/sda3 /mnt/home</code> La particion home es la 2<br>
 	</li>
-	
 	<li>
+		<p>Instalamos el sistema operativo base y unos paquetes más</p><br>
+		<code>pacstrap /mnt linux linux-firmware base nano os-prober grub networkmanager dhcpcd xterm efibootmgr</code><br>
 	</li>
-	
 	<li>
+		<p>Guardamos nuestro trabajo de descarga en el fichero fstab</p><br>
+		<p>Creamos el fichero fstab y guerdamos lo descargado</p><br>
+		<code>genfstab /mnt >> /mnt/etc/fstab</code><br>
 	</li>
-	
 	<li>
+		<code>Así vemos el contenido del fichero</code><br>
+		<p>cat /mnt/etc/fstab</p>
 	</li>
-	
 	<li>
+		<p>Accedemos al sistema operativo descargado</p>
+		<code>arch-chroot /mnt</code><br>
 	</li>
-	
 	<li>
+		<p>Estamos en el directorio raiz ( root@archiso ).</p><br>
+		<p>Configuramos el nombre de la maquina</p>
+		<code>echo alvaropc > /etc/hostname</code><br>
 	</li>
 	
 	<li>
@@ -163,40 +184,12 @@ red<br>
 
 
 
-<p>Formatemos las particiones para luego motarlar e instalarlas</p>
-<p><code>mkfs.ext2 /dev/sda1</code> Es la partición del boot<br></p>
-<p><code>mkfs.ext4 /dev/sda2</code> Es la partición de la raiz<br></p>
-<p><code>mkfs.ext4 /dev/sda3</code> Es la partición del home<br></p>
-<p><code>mkswap /dev/sda4</code> Es la partición de la memoria de intercambio o swap<br></p>
-<p><code>swapon</code> Encendemos el swap<br></p>
+
 	
-<p>Montamos las particiones</p>
-<code>mount /dev/sda2 /mnt => La raiz se ba a montar en la carpeta mnt</code><br>
-<p>Creamos la carpeta o directorio para el boot</p><br>
-	<code>mkdir /mnt/boot</code><br>
-<p>Mostamos el boot en la carpeta /mnt/home</p><br>
-	<code>mount /dev/sda1 /mnt/boot</code> La particion boot es la 1<br>
-<p>Creamos la carpeta o directorio para el home</p><br>
-	<code>mkdir /mnt/home</code><br>
-<p>Mostamos el home en la carpeta /mnt/home</p><br>
-	<code>mount /dev/sda3 /mnt/home</code> La particion home es la 2<br>
 
 
-<p>Instalamos el sistema operativo base y unos paquetes más</p>
-<code>pacstrap /mnt linux linux-firmware base nano os-prober grub networkmanager dhcpcd xterm efibootmgr</code><br>
 
-<p>Guardamos nuestro trabajo de descarga en el fichero fstab</p>
-<p>Creamos el fichero fstab y guerdamos lo descargado</p>
-<code>genfstab /mnt >> /mnt/etc/fstab</code><br>
 
-<code>Así vemos el contenido del fichero</code><br>
-<p>cat /mnt/etc/fstab</p>
-	
-<p>Accedemos al sistema operativo descargado</p>
-<code>arch-chroot /mnt</code><br>
-<p>Estamos en el directorio raiz ( root@archiso )</p>
-<p>Configuramos el nombre de la maquina</p>
-<code>echo alvaropc > /etc/hostname</code><br>
 
 
 <p>Ver zonas horarias buscamos la nuestra para asegurarnos que exista</p>
