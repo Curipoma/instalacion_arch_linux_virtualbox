@@ -21,7 +21,7 @@ Instalación de Arch Linux como una máquina virtual en virtualbox.
 <h3>En Oracle VM VirtualBox</h3>
 	<ul>
 		<li>
-			<h3>Cambiamos el orden de arranque</h3>
+			<h4>Cambiamos el orden de arranque</h4>
 			<ul>
 				<li>óptica activo</li>
 				<li>disco duro activo</li>
