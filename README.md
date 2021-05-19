@@ -23,12 +23,15 @@ red<br>
 <h3>Configuramos las demas cosas según el gusto</h3>
 
 <h3>En la máquina virtual</h3>
+
 <ul>
 	<li>
 		<p>Lo primero sera configurar el teclado</p>
 		<code>loadkeys es</code>
 		<code>loadkeys la-latin1</code>
 
+	</li>
+	<li>
 		<p>Ver todas las distribuciones de idioma del teclado</p>
 		<code>localectl list-keymaps | less</code>
 
