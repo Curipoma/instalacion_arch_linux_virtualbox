@@ -245,7 +245,7 @@ Instalación de Arch Linux como una máquina virtual en virtualbox.
 	</li>
 	<li>
 		<p>Agregar usuarios al wheel para despues tener permisos de super usuario mediante el comando sudo</p>
-		<code>usermod -aG wheel,video,audio,storage username</code>
+		<code>usermod -aG wheel,video,audio,storage alvaro</code>
 	</li>
 	<li>
 		<p>Edita /etc/sudoers con nano o vim y descomenta la línea con "wheel":</p>
@@ -284,5 +284,9 @@ Instalación de Arch Linux como una máquina virtual en virtualbox.
 		<p>Dentro de Qtile cambiamos el idioma del teclado a españon</p>
 			<code>setxkbmap es</code>
 	</li>
+	<li>
+		<p>No tendemos sonido así que instalaremos pavucontrol</p>
+		<code>sudo pacman -S pulseaudio pavucontrol</code>
+		<p>Activara por si solo el sonido, pero si no fuese el caso abrimos pavucontrol y modificamos los niveles del sonido</p>
+	</li>
 </ul>
-
