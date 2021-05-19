@@ -83,6 +83,9 @@ Instalación de Arch Linux como una máquina virtual en virtualbox.
 		<li>
 			<img src="https://raw.githubusercontent.com/Curipoma/instalacion_arch_linux_virtualbox/main/img/18.png" alt="instalación de virtualbox">
 		</li>
+		<li>
+			<img src="https://raw.githubusercontent.com/Curipoma/instalacion_arch_linux_virtualbox/main/img/20_1.png" alt="instalación de virtualbox">
+		</li>
 	</ul>
 
 
