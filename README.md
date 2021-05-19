@@ -275,7 +275,7 @@ Instalación de Arch Linux como una máquina virtual en virtualbox.
 		<code>sudo pacman -S xorg</code>
 	</li>
 	<li>
-		<h3>Entorno gráfico</h3>
+		<p>Entorno gráfico</p>
 		<p>Instalamos algunos paquetes como un entorno grafico ( En este caso instalare Qtile )</p>
 			<code>sudo pacman -S lightdm lightdm-gtk-greeter qtile xterm code firefox</code>
 		<p>Activa el servicio de lightdm y reinicia el ordenador, deberías poder iniciar sesión en Qtile a través de lightdm.</p>
