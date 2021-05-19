@@ -1,24 +1,31 @@
 # INSTALACIÓN DE ARCH LINUX EN VIRTUALBOX
 Instalación de Arch Linux como una máquina virtual en virtualbox.
-<img src="https://raw.githubusercontent.com/Curipoma/instalacion_arch_linux_VirtualBox/main/18.png" alt="virtualbox">
-<hr>
+	<img src="https://raw.githubusercontent.com/Curipoma/instalacion_arch_linux_VirtualBox/main/18.png" alt="virtualbox">
+	<hr>
 
-<code>Descargamos la imagen iso de Arch Linux -> https://archlinux.org/download/</code>
+<code>Descargamos la imagen iso de Arch Linux -> <a href="https://archlinux.org/download">iso Arch Linux</a>/</code>
+
+<h3>Para crear una máquina virtual en virual box como mínimo estos requisitos</h3>
+	minimo 248M de ram<br>
+	minimo 20G memoria<br>
 
 <h4>La máquina del ejemplo tendrá estas características como mínimo</h4>
-50GB Almacenamiento<br>
-4GB Ram<br>
-128MB memoria gráfico<br>
+	50GB Almacenamiento<br>
+	4GB Ram<br>
+	128MB memoria gráfico<br>
 
-<h3>Para crear una maquina virtual en virual box como minimo estos requisitos</h3>
-minimo 248M de ram<br>
-minimo 20G memoria<br>
 
-<h3>Cambiamos el orden de arranque</h3>
-optica activo<br>
-disco duro activo<br>
-disquete<br>
-red<br>
+<h3>En Oracle VM VirtualBox</h3>
+<ul>
+	<li>
+		<h3>Cambiamos el orden de arranque</h3>
+			optica activo<br>
+			disco duro activo<br>
+			disquete<br>
+			red<br>
+	</li>
+</ul>
+
 
 <h3>Configuramos las demas cosas según el gusto</h3>
 
