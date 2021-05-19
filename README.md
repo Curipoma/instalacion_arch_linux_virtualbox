@@ -33,10 +33,13 @@ red<br>
 	<li>
 		<p>Ver todas las distribuciones de idioma del teclado</p>
 		<code>localectl list-keymaps | less</code>
-
+	</li>
+	<li>
 		<p>Comprobar si la computadora tiene internet</p>
 		<code>ping google</code>
 		<p>Como es una maquina virual tiene acceso a la red mediante una NAT</p>
+	</li>
+	<li>
 		<p>Menu para crear particiones</p>
 		<code>fdisk -l</code>
 	</li>
