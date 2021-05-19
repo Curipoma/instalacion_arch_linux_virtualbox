@@ -285,6 +285,7 @@ Instalación de Arch Linux como una máquina virtual en virtualbox.
 			<code>setxkbmap es</code>
 	</li>
 	<li>
+		<p>Audio</p>
 		<p>No tendemos sonido así que instalaremos pavucontrol</p>
 		<code>sudo pacman -S pulseaudio pavucontrol</code>
 		<p>Activara por si solo el sonido, pero si no fuese el caso abrimos pavucontrol y modificamos los niveles del sonido</p>
