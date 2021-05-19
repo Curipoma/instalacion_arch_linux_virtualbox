@@ -22,32 +22,32 @@ red<br>
 
 <h3>Configuramos las demas cosas según el gusto</h3>
 
-<h3>Lo primero sera configurar el teclado</h3>
+<h3>Ya en la máquina virtual</h3>
+<p>Lo primero sera configurar el teclado</p>
 <code>loadkeys es</code>
 <code>loadkeys la-latin1</code>
 
-<h3>Ver todas las distribuciones de idioma del teclado</h3>
+<p>Ver todas las distribuciones de idioma del teclado</p>
 <code>localectl list-keymaps | less</code>
 
-<h3>Comprobar si la computadora tiene internet</h3>
+<p>Comprobar si la computadora tiene internet</p>
 <code>ping google</code><br>
 <p>Como es una maquina virual tiene acceso a la red mediante una NAT</p>
 
-<h3>Menu para crear particiones</h3>
+<p>Menu para crear particiones</p>
 <code>fdisk -l</code><br>
 
-<h3>Menu para crear tabla de particiones mbr</h3>
+<p>Menu para crear tabla de particiones mbr</p>
 <code>fdisk /dev/sda</code><br>
 <p>Creamos la tabla de particiones mbr</p>
 <code>o</code>
 <p>Guardamos los cambios<p>
 <code>w</code>
 
-<h3>Entramos a la tabla para crear particiones</h3>
+<p>Entramos a la tabla para crear particiones</p>
 <code>cfdisk</code><br>
 
-<h3>Creando las particiones</h3>
-
+<p>Creando las particiones</p>
 <p>Primera particion para el boot</p>
 <ul>
 	<li>512M</li>
@@ -77,18 +77,18 @@ red<br>
 	<li>write -> yes</li>
 </ul>
 	
-<h6>Debemos cambiar el tipo de la memoria swap a <strong>82 linux swap / solaris</strong></h6>
+<p>Debemos cambiar el tipo de la memoria swap a <strong>82 linux swap / solaris</strong></p>
 write -> yes <br>
 quit <br>
 
-<h3>Formatemos las particiones para luego motarlar e instalarlas</h3>
+<p>Formatemos las particiones para luego motarlar e instalarlas</p>
 <p><code>mkfs.ext2 /dev/sda1</code> Es la partición del boot<br></p>
 <p><code>mkfs.ext4 /dev/sda2</code> Es la partición de la raiz<br></p>
 <p><code>mkfs.ext4 /dev/sda3</code> Es la partición del home<br></p>
 <p><code>mkswap /dev/sda4</code> Es la partición de la memoria de intercambio o swap<br></p>
 <p><code>swapon</code> Encendemos el swap<br></p>
 	
-<h3>Montamos las particiones</h3>
+<p>Montamos las particiones</p>
 <code>mount /dev/sda2 /mnt => La raiz se ba a montar en la carpeta mnt</code><br>
 <p>Creamos la carpeta o directorio para el boot</p><br>
 	<code>mkdir /mnt/boot</code><br>
@@ -100,17 +100,17 @@ quit <br>
 	<code>mount /dev/sda3 /mnt/home</code> La particion home es la 2<br>
 
 
-<h3>Instalamos el sistema operativo base y unos paquetes más</h3>
+<p>Instalamos el sistema operativo base y unos paquetes más</p>
 <code>pacstrap /mnt linux linux-firmware base nano os-prober grub networkmanager dhcpcd xterm efibootmgr</code><br>
 
-<h3>Guardamos nuestro trabajo de descarga en el fichero fstab</h3>
+<p>Guardamos nuestro trabajo de descarga en el fichero fstab</p>
 <p>Creamos el fichero fstab y guerdamos lo descargado</p>
 <code>genfstab /mnt >> /mnt/etc/fstab</code><br>
 
 <code>Así vemos el contenido del fichero</code><br>
 <p>cat /mnt/etc/fstab</p>
 	
-<h3>Accedemos al sistema operativo descargado</h3>
+<p>Accedemos al sistema operativo descargado</p>
 <code>arch-chroot /mnt</code><br>
 <p>Estamos en el directorio raiz ( root@archiso )</p>
 <p>Configuramos el nombre de la maquina</p>
