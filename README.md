@@ -68,28 +68,24 @@ red<br>
 			<li>bootable</li>
 			<li>write -> yes</li>
 		</ul>
-
 		<p>Segunda partición para la raiz donde se instalara todo el sistema oeprativo</p>
 		<ul>
 			<li>20G</li>
 			<li>primary</li>
 			<li>write -> yes</li>
 		</ul>
-
 		<p>Tercera partición para el home donde estara toda la información de los usuarios que vaya a tener la máquina virtual. Además le restamos el tamaño de la menoria para el swap. La memoria de swap es la misma cantidad de la menoria ram</p>
 		<ul>
 			<li>espacioTotal - 4G</li>
 			<li>primary</li>
 			<li>write -> yes</li>
 		</ul>
-
 		<p>Cuarta partición para la memoria de intercambio o swap</p>
 		<ul>
 			<li>la misma cantidad que le dimos en memoria ram</li>
 			<li>primary => No importa mucho si es primary o extend</li>
 			<li>write -> yes</li>
 		</ul>
-
 		<p>Debemos cambiar el tipo de la memoria swap a <strong>82 linux swap / solaris</strong></p>
 		write -> yes <br>
 		quit <br>
