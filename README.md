@@ -33,28 +33,28 @@ red<br>
 <code>ping google</code><br>
 <p>Como es una maquina virual tiene acceso a la red mediante una NAT</p>
 
-<h3></h3>
-<code></code>
-<br>
-
 <h3>verificamos si tenemos particiones en el disco</h3>
 <code>cfdisk</code><br>
 
+<h3>Menu para crear particiones</h3>
+<code>fdisk -l</code><br>
 
-# menu para crear particiones
-fdisk -l
+<h3>menu para crear tabla de particiones mbr</h3>
+<code>fdisk /dev/sda</code><br>
+<h4>Creamos la tabla de particiones mbr</h4>
+<code>o</code>
+<h4>Guardamos los cambios<h4>
+<code>w</code>
+	
+<h3>Entramos a la tabla para crear particiones</h3>
+<code>cfdisk</code><br>
 
-# menu para crear tabla de particiones mbr
-fdisk /dev/sda
-Creamos la tabla de particiones mbr
-o 
-Guardamos los cambios
-w
+<h3>Creando las particiones</h3>
 
-# Entramos a la tabla para crear particiones
-cfdisk
-
-# Creando las particiones
+<code></code><br>
+<code></code><br>
+	
+	
 primera particion => para el boot
 	512M
 	primary
