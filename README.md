@@ -21,32 +21,25 @@ disquete<br>
 red<br>
 
 <h3>Configuramos las demas cosas según el gusto</h3>
+
+<h3>Lo primero sera configurar el teclado</h3>
+<code>loadkeys es</code>
+<code>loadkeys la-latin1</code>
+
+<h3>Ver todas las distribuciones de idioma del teclado</h3>
+<code>localectl list-keymaps | less</code>
+
+<h3>Comprobar si la computadora tiene internet</h3>
+<code>ping google</code><br>
+<p>Como es una maquina virual tiene acceso a la red mediante una NAT</p>
+
+<h3></h3>
 <code></code>
+<br>
 
-# selecionamos la unidad optica en Almacenamiento
+<h3>verificamos si tenemos particiones en el disco</h3>
+<code>cfdisk</code><br>
 
-# encendemos la maquina
-
-# escojemos el disco de inicio
-
-# Escojemos la opcion => Arch Linux install medium (x86_64, BIOS)
-
-
-
-
-# Lo primero sera configurar el teclado
-loadkeys es
-loadkeys la-latin1
-
-# Ver todas las distribuciones de idioma del teclado
-localectl list-keymaps | less
-
-# Comprobar si la computadora tiene internet
-ping google
- - Como es una maquina virual tiene acceso a la red mediante una NAT
-
-# verificamos si tenemos particiones en el disco
-cfdisk
 
 # menu para crear particiones
 fdisk -l
