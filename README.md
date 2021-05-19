@@ -27,9 +27,8 @@ red<br>
 <ul>
 	<li>
 		<p>Lo primero sera configurar el teclado</p>
-		<code>loadkeys es</code>
+		<code>loadkeys es</code><br>
 		<code>loadkeys la-latin1</code>
-
 	</li>
 	<li>
 		<p>Ver todas las distribuciones de idioma del teclado</p>
