@@ -47,22 +47,18 @@ red<br>
 		<p>Menu para crear tabla de particiones mbr</p>
 		<code>fdisk /dev/sda</code>
 	</li>
-	
 	<li>
 		<p>Creamos la tabla de particiones mbr</p>
 		<code>o</code>
 	</li>
-	
 	<li>
 		<p>Guardamos los cambios<p>
 		<code>w</code>
 	</li>
-	
 	<li>
 		<p>Entramos a la tabla para crear particiones</p>
 		<code>cfdisk</code><br>
 	</li>
-	
 	<li>
 		<p>Creando las particiones</p>
 		<p>Primera particion para el boot</p>
