@@ -57,7 +57,7 @@ red<br>
 	</li>
 	<li>
 		<p>Entramos a la tabla para crear particiones</p>
-		<code>cfdisk</code><br>
+		<code>cfdisk</code>
 	</li>
 	<li>
 		<p>Creando las particiones</p>
@@ -92,23 +92,23 @@ red<br>
 	</li>
 	<li>
 		<p>Formatemos las particiones para luego motarlar e instalarlas</p>
-		<p><code>mkfs.ext2 /dev/sda1</code> Es la partición del boot<br></p>
-		<p><code>mkfs.ext4 /dev/sda2</code> Es la partición de la raiz<br></p>
-		<p><code>mkfs.ext4 /dev/sda3</code> Es la partición del home<br></p>
-		<p><code>mkswap /dev/sda4</code> Es la partición de la memoria de intercambio o swap<br></p>
-		<p><code>swapon</code> Encendemos el swap<br></p>
+		<p><code>mkfs.ext2 /dev/sda1</code> Es la partición del boot</p>
+		<p><code>mkfs.ext4 /dev/sda2</code> Es la partición de la raiz</p>
+		<p><code>mkfs.ext4 /dev/sda3</code> Es la partición del home</p>
+		<p><code>mkswap /dev/sda4</code> Es la partición de la memoria de intercambio o swap</p>
+		<p><code>swapon</code> Encendemos el swap</p>
 	</li>
 	<li>
 		<p>Montamos las particiones</p>
-		<code>mount /dev/sda2 /mnt => La raiz se ba a montar en la carpeta mnt</code><br>
-		<p>Creamos la carpeta o directorio para el boot</p><br>
-			<code>mkdir /mnt/boot</code><br>
-		<p>Mostamos el boot en la carpeta /mnt/home</p><br>
-			<code>mount /dev/sda1 /mnt/boot</code> La particion boot es la 1<br>
-		<p>Creamos la carpeta o directorio para el home</p><br>
-			<code>mkdir /mnt/home</code><br>
-		<p>Mostamos el home en la carpeta /mnt/home</p><br>
-			<code>mount /dev/sda3 /mnt/home</code> La particion home es la 2<br>
+		<code>mount /dev/sda2 /mnt => La raiz se ba a montar en la carpeta mnt</code>
+		<p>Creamos la carpeta o directorio para el boot</p>
+			<code>mkdir /mnt/boot</code>
+		<p>Mostamos el boot en la carpeta /mnt/home</p>
+			<code>mount /dev/sda1 /mnt/boot</code> La particion boot es la 1
+		<p>Creamos la carpeta o directorio para el home</p>
+			<code>mkdir /mnt/home</code>
+		<p>Mostamos el home en la carpeta /mnt/home</p>
+			<code>mount /dev/sda3 /mnt/home</code> La particion home es la 2
 	</li>
 	<li>
 		<p>Instalamos el sistema operativo base y unos paquetes más</p><br>
