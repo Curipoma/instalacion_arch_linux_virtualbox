@@ -33,11 +33,10 @@ red<br>
 		<code>localectl list-keymaps | less</code>
 
 		<p>Comprobar si la computadora tiene internet</p>
-		<code>ping google</code><br>
+		<code>ping google</code>
 		<p>Como es una maquina virual tiene acceso a la red mediante una NAT</p>
-
 		<p>Menu para crear particiones</p>
-		<code>fdisk -l</code><br>
+		<code>fdisk -l</code>
 	</li>
 </ul>
 
