@@ -1,6 +1,6 @@
 # INSTALACIÓN DE ARCH LINUX EN VIRTUALBOX
 Instalación de Arch Linux como una máquina virtual en virtualbox.
-	<img src="https://raw.githubusercontent.com/Curipoma/instalacion_arch_linux_VirtualBox/main/18.png" alt="virtualbox">
+	<img src="https://raw.githubusercontent.com/Curipoma/instalacion_arch_linux_virtualbox/main/img/18.png" alt="virtualbox">
 	<hr>
 
 <code>Descargamos la imagen iso de Arch Linux -> <a href="https://archlinux.org/download">iso Arch Linux</a>/</code>
